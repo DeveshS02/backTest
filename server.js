@@ -28,7 +28,10 @@ const endpoints = [
     'latestwaterC',
     'staticnodesC',
     'borewellnodesC',
-    'borewellgraphC'
+    'borewellgraphC',
+    'waterminutesdatas',
+    'borewelldata',
+    'tankerdata'
 ];
 
 // Configure the proxy for each endpoint
