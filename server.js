@@ -4,7 +4,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
 // Define allowed origins
-const allowedOrigins = ['http://localhost', 'http://localhost:5174', 'http://localhost:5173', 'https://react-water-iot.vercel.app', 'https://www.hydrowtech.com', 'https://hydrowverse.com'];
+const allowedOrigins = ['http://localhost', 'http://localhost:5174', 'http://localhost:5173', 'https://react-water-iot.vercel.app', 'https://www.hydrowtech.com', 'https://hydrowverse.com', 'https://spcrc.iiit.ac.in/'];
 
 // Configure CORS
 const corsOptions = {
