@@ -19,7 +19,7 @@ const corsOptions = {
     }
 };
 
-app.use(cors(corsOptions));
+app.use();
 
 // List of endpoints to proxy
 const endpoints = [
